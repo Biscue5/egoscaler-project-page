@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Academic Project Page</title>
+  <!--<link rel="icon" type="image/x-icon" href="static/images/favicon.ico">-->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">Generating 6DoF Object Manipulation Trajectories <br> from Action Description in Egocentric Vision</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Tomoya Yoshida</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Shuhei Kurita</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Taichi Nishimura</a><sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Shinsuke Mori</a><sup>1</sup>
+              </span>
+            </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Kyoto University, <sup>2</sup>NII, <sup>3</sup>Sony Interactive Entertainment <br>CVPR 2025</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!--
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+                  -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay muted loop height="100%">
+        <source src="static/videos/teaser.mp4" type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+          Our framework automatically extract a 6DoF object manipulation trajectory from single egocentric video.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Learning to use tools or objects in common scenes, particularly handling them in various ways as instructed, is a key challenge for developing interactive robots. Training models to generate such manipulation trajectories requires a large and diverse collection of detailed manipulation demonstrations for various objects, which is nearly unfeasible to gather at scale. In this paper, we propose a framework that leverages large-scale ego- and exo-centric video datasets --- constructed globally with substantial effort --- of Exo-Ego4D to extract diverse manipulation trajectories at scale. From these extracted trajectories with the associated textual action description, we develop trajectory generation models based on visual and point cloud-based language models. In the recently proposed egocentric vision-based in-a-quality trajectory dataset of HOT3D, we confirmed that our models successfully generate valid object trajectories, establishing a training dataset and baseline models for the novel task of generating 6DoF manipulation trajectories from action descriptions in egocentric vision. Our dataset and code is available upon acceptance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">Our Framework</h2>
+      <img src="static/images/framework.jpg" alt="MY ALT TEXT" />
+      <div class="content has-text-justfied">
+        <p>
+          Our framework consists of four stages. First, given an egocentric video, we determine the start and end timestamps of the action and identify the manipulated object within the scene. Second, we extract the position sequence of the manipulated object using an open-vocabulary segmentation model and a dense 3D point tracker. Third, we project the sequence into the camera coordinate system of the first frame using point cloud registration. Fourth, we extract a rotation sequence by computing the transformation between the two object point clouds using SVD.
+        </p>
+      </div>
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Samples of Extracted Trajectories</h2>
+    </div>
+    <div class="container has-text-centered">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay muted loop style="height:500px;">
+            <source src="static/videos/extracted-sample1.mp4" type="video/mp4">
+          </video>
+          <p class="subtitle is-size-6">Action Description: "<em>Cut the red pepper seeds with the knife in his right hand.</em>" <br> (video source: Ego-Exo4D dataset)</p>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay muted loop style="height:500px;">
+            <source src="static/videos/extracted-sample2.mp4" type="video/mp4">
+          </video>
+          <p class="subtitle is-size-6">Action Description: "<em>Stir the garlic and oil in the skillet with the spatula in her right hand.</em>" <br> (video source: Ego-Exo4D dataset)</p>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay muted loop style="height:500px;">
+            <source src="static/videos/extracted-sample3.mp4" type="video/mp4">
+          </video>
+          <p class="subtitle is-size-6">Action Description: "<em>Move a plate on the countertop with her left hand.</em>" <br> (video source: Ego-Exo4D dataset)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">6DoF Object Manipulation Generation</h2>
+      <h2 class="title is-4">Task Overview</h2>
+      <img src="static/images/task-overview.jpg" alt="MY ALT TEXT" />
+      <div class="content has-text-justfied">
+        <p>
+          This task aims to generate a sequence of 6DoF object poses from an action description and an initial state comprising the visual input and the object's initial pose.
+        </p>
+      </div>
+      <h2 class="title is-4">Model Architecture</h2>
+      <div class="columns">
+        <div class="column is-half">
+          <div class="content has-text-justified">
+            <p>
+              Considering recent advancements in multi-modal language models, we develop object manipulation trajectory generation models based on visual and point cloud-based language models (VLMs), formalizing our task as next token prediction task. This is achieved by incorporating an extended vocabulary for trajectory tokenization into the VLMs. 
+            </p>
+          </div>
+        </div>
+        <div class="column is-half">
+          <img src="static/images/model-arch.jpg" alt="MY ALT TEXT" />
+        </div>
+      </div>
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Samples of Generated Trajectories</h2>
+    </div>
+    <div class="container has-text-centered">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay muted loop style="height:500px;">
+            <source src="static/videos/generated-sample1.mp4" type="video/mp4">
+          </video>
+          <p class="subtitle is-size-6">Action Description: <em>"Pick up the cellphone from the table with the right hand."</em>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay muted loop style="height:500px;">
+            <source src="static/videos/generated-sample2.mp4" type="video/mp4">
+          </video>
+          <p class="subtitle is-size-6">Action Description: "<em>stirs the contents of the bowl with the wooden spoon using the right hand."</em>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay muted loop style="height:500px;">
+            <source src="static/videos/generated-sample3.mp4" type="video/mp4">
+          </video>
+          <p class="subtitle is-size-6">Action Description: <em>"Pick up the bamboo plate from the table with both hands."</em>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Samples of Generated Trajectories</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay muted loop height="100%">
+            <source src="static/videos/extracted-sample1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay muted loop height="100%">
+            <source src="static/videos/extracted-sample2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay muted loop height="100%">\
+            <source src="static/videos/sample3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+<!--
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Samples of Generated Trajectories</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay muted loop height="100%">
+            <source src="static/videos/sample1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay muted loop height="100%">
+            <source src="static/videos/sample2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay muted loop height="100%">\
+            <source src="static/videos/sample3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+<!--
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Deployment on Robot</h2>
+  </div>
+</section>
+-->
+
+<!--
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @inproceedings{yoshida_2025_CVPR,
+        author = {Tomoya, Yoshida and Shuhei, Kurita and Taichi, Nishimura and Shinsuke Mori},
+        title = {Generating 6DoF Object Manipulation Trajectories from Action Description in Egocentric Vision}, 
+        booktitle = {CVPR 2025}, 
+        year = {2025}
+      }
+    </code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
